@@ -44,6 +44,6 @@ def command_line():
 def main():
     socket_create()
     socket_connect()
-    commands()
+    command_line()
 
 main()
